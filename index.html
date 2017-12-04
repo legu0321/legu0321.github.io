@@ -44,7 +44,7 @@
               <a class="nav-link js-scroll-trigger" href="#DataSource">Data Source</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#Technologies">Technologies</a>
+              <a class="nav-link js-scroll-trigger" href="#Methodology">Methodology</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#Analyzer">Text Analyzer</a>
@@ -188,43 +188,73 @@
       </div>
     </section>
 
-    <!-- Technologies -->
-    <section id="Technologies">
+    <!-- Methodology -->
+    <section id="Methodology">
+
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Technologies</h2>
-            <h3 class="section-subheading text-muted">Use NLP for early Alzheimer's detection </h3>
+            <h2 class="section-heading text-uppercase">Methodology</h2>
+            <h3 class="section-subheading text-muted"></h3>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Linguistic Features</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+
+
+
+
+
+        <!--vertical-->
+        <div class="row align-items-center">
+          <div class="col-sm-6 order-2">
+            <div class="p-5">
+              <img class="mx-auto rounded-rectangle" src="img/methodologies/linguistic_features.png" alt="">
+            </div>
           </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Time Series Analysis</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fa fa-circle fa-stack-2x text-primary"></i>
-              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Machine Learning Models</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h4 class="service-heading">Linguistic Features Computation</h4>
+              <p class="text-muted">Based on dozens of researches and academic papers, we computed more than 300 linguistic features, that could potentially indicates spoken language capabilities. For example, Vocabulary Richness, Repetition, and Use of Passive etc.  </p>
+            </div>
           </div>
         </div>
+
+        <div class="row align-items-center">
+          <div class="col-sm-6 order-2">
+            <div class="p-5">
+              <img class="mx-auto rounded-rectangle" src="img/methodologies/model_chart.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h4 class="service-heading">Difference in Difference Analysis</h4>
+              <p class="text-muted">We used the statistical technique of Difference in Differences (DID or DD),
+                to assess the effect of Alzheimer's on linguistic features by comparing the average change over time for the patient group,
+                compared to the average change over time for the control group. <br/>
+                Regression on outcome = &beta;<sub>0</sub> + &beta;<sub>1</sub> &times; A + &beta;<sub>2</sub> &times; T + &beta;<sub>3</sub> &times; A &times; T</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-sm-6 order-2">
+            <div class="p-5">
+              <img class="mx-auto rounded-rectangle" src="img/methodologies/beta3.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-6 order-1">
+            <div class="p-5">
+              <h4 class="service-heading">Analysis on &beta;<sub>3</sub></h4>
+              <p class="text-muted">We picked the significant linguistic features with the most effect size based on &beta;<sub>3</sub>>, and use them as major features for comparison for our "Text Analyzer".</sub> </p>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
     </section>
+
+
     <!-- Text Analyzer-->
     <section section class="bg-light" id="Analyzer">
       <div class="container">
