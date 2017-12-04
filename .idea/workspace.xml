@@ -16,7 +16,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1860">
+=======
+            <state relative-caret-position="413">
+>>>>>>> 45929fc49a53e919e2f9786b20b682a8f357ba13
               <caret line="163" column="43" lean-forward="false" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
               <folding>
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -149,7 +153,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1860">
+=======
+        <state relative-caret-position="413">
+>>>>>>> 45929fc49a53e919e2f9786b20b682a8f357ba13
           <caret line="163" column="43" lean-forward="false" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
